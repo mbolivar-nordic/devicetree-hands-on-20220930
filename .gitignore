@@ -1,0 +1,27 @@
+*.o
+*.a
+*.d
+*.cmd
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+build*/
+.*project
+.settings
+.envrc
+.vscode
+.DS_Store
+.clangd
+
+# Tag files
+GPATH
+GRTAGS
+GTAGS
+TAGS
+tags
+
+.idea

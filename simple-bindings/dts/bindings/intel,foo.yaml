@@ -1,0 +1,10 @@
+description: |
+  A binding for the (fake) Nordic "foo" device.
+compatible: nordic,foo
+include: base.yaml
+
+# Uncomment and add the missing 'fifo-depth'
+# property definition below:
+
+# properties:
+#   ...

@@ -1,0 +1,10 @@
+/ {
+	zephyr,user {
+		/* Change these properties to make tests pass. */
+		my-string = "";
+		my-int = <0>;
+		my-array = <0 0>;
+		my-uint8-array = [00 00];
+		my-string-array = "", "";
+	};
+};

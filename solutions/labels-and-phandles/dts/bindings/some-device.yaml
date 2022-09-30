@@ -1,0 +1,8 @@
+description: |
+  Some device of interest, has a message
+  property that we want to read.
+compatible: some-device
+
+properties:
+  message:
+    type: string

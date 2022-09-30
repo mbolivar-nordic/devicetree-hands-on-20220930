@@ -1,0 +1,22 @@
+/ {
+	zephyr,user {
+		/* fix this next line to make
+		 * the tests pass: */
+		device = <&device2>;
+	};
+
+	device0: dev0 {
+		compatible = "some-device";
+		message = "zero";
+	};
+
+	device1: dev1 {
+		compatible = "some-device";
+		message = "one";
+	};
+
+	device2: dev2 {
+		compatible = "some-device";
+		message = "two";
+	};
+};

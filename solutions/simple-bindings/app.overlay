@@ -1,0 +1,14 @@
+/ {
+	soc {
+		foo@0 {
+			compatible = "nordic,foo";
+			reg = <0x0 0x1000>;
+			fifo-depth = <16>;
+		};
+		bar@1000 {
+			compatible = "intel,foo";
+			reg = <0x1000 0x1000>;
+			num-channels = <10>;
+		};
+	};
+};

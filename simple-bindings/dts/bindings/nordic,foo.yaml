@@ -1,0 +1,10 @@
+description: |
+  A binding for the (fake) Intel "foo" device.
+compatible: intel,foo
+include: base.yaml
+
+# Uncomment and add the missing 'num-channels'
+# property definition below:
+
+# properties:
+#   ...
